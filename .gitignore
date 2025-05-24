@@ -1,0 +1,17 @@
+local_cache/
+cnndm
+checkpoints/
+requirements.txt.old
+__pycache__/
+envs/
+cache/
+result/
+compare-mt/
+xsum/
+shell_script/
+*/nohup.out
+nohup.out
+*.out
+*.zip
+*.log
+*.json
