@@ -32,3 +32,7 @@ Desentiment introduces a **Sentimental-Supervised Summarization Task (S3T)** fra
 ![Desentiment Framework](framework.png)
 
 *Overview of the Desentiment framework. The model uses sentiment prompts and dual calibration modules to generate sentiment-controlled summaries.*
+
+## CopyRight
+This repository is modified from [BRIO](https://github.com/yixinL7/BRIO) project. 
+I added the sentiment and semantic taggers to `./Tagger/`, and added the  sentiment calibrator to `./model.py` change loss function in `./main.py` to balance the sentiment and semantics.
